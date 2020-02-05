@@ -249,7 +249,7 @@
 
     <antcall target="unzip-arm-toolchain">
       <param name="dist_file" value="gcc-arm-none-eabi-4.4.1-2010q1-188-macos.tar.gz" />
-      <param name="dist_url" value="http://arduino.googlecode.com/files/gcc-arm-none-eabi-4.4.1-2010q1-188-macos.tar.gz" />
+      <param name="dist_url" value="https://dn.odroid.com/toolchains/gcc-arm-none-eabi-4.4.1-2010q1-188-linux32.tar.gz" />
       <param name="dist_check_file" value="g++_arm_none_eabi" />
     </antcall>
 
@@ -486,7 +486,7 @@
     <!-- Unzip ARM tools -->
     <antcall target="unzip-arm-toolchain">
       <param name="dist_file" value="gcc-arm-none-eabi-4.4.1-2010q1-188-linux32.tar.gz" />
-      <param name="dist_url" value="http://arduino.googlecode.com/files/gcc-arm-none-eabi-4.4.1-2010q1-188-linux32.tar.gz" />
+      <param name="dist_url" value="https://dn.odroid.com/toolchains/gcc-arm-none-eabi-4.4.1-2010q1-188-linux32.tar.gz" />
       <param name="dist_check_file" value="g++_arm_none_eabi" />
     </antcall>
 
@@ -507,7 +507,7 @@
     <!-- Unzip ARM tools -->
     <antcall target="unzip-arm-toolchain">
       <param name="dist_file" value="gcc-arm-none-eabi-4.4.1-2010q1-188-linux32.tar.gz" />
-      <param name="dist_url" value="http://arduino.googlecode.com/files/gcc-arm-none-eabi-4.4.1-2010q1-188-linux32.tar.gz" />
+      <param name="dist_url" value="https://dn.odroid.com/toolchains/gcc-arm-none-eabi-4.4.1-2010q1-188-linux32.tar.gz" />
       <param name="dist_check_file" value="g++_arm_none_eabi" />
     </antcall>
 
@@ -711,7 +711,7 @@
     <!-- Unzip ARM toolchain -->
     <antcall target="unzip-arm-toolchain">
       <param name="dist_file" value="gcc-arm-none-eabi-4.4.1-2010q1-188-win32.tar.gz" />
-      <param name="dist_url" value="http://arduino.googlecode.com/files/gcc-arm-none-eabi-4.4.1-2010q1-188-win32.tar.gz" />
+      <param name="dist_url" value="https://dn.odroid.com/toolchains/gcc-arm-none-eabi-4.4.1-2010q1-188-linux32.tar.gz" />
       <param name="dist_check_file" value="g++_arm_none_eabi" />
     </antcall>
 
